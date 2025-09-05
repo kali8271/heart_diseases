@@ -10,7 +10,7 @@ from sklearn.ensemble import RandomForestClassifier
 DATA_FILE = "Cardiovascular_Disease_Dataset.csv"
 MODEL_FILE = "best_model.pkl"
 TIME_FILE = "last_retrain.txt"
-RETRAIN_INTERVAL_HOURS = 72   # retrain every 72 hours
+RETRAIN_INTERVAL_HOURS = 48   # retrain every 48 hours
 MIN_DATA_SIZE = 150           # need at least 150 rows
 
 # --- Function to check if retraining needed ---
